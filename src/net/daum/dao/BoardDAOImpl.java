@@ -23,7 +23,7 @@ public class BoardDAOImpl {
 	ResultSet rs = null; //검색결과 레코드를 저장할 rs
 	String sql=null; //쿼리문 저장 변수
 	
-	//게시판 목록
+	//게시판 목록 
 	public List<BoardVO> getBoardList(){
 		List<BoardVO> blist = new ArrayList<>();
 		

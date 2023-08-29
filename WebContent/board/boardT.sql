@@ -10,7 +10,8 @@ create table boardT(
  
  
  select * from boardT order by bno desc;
- update boardT set bname="글쓴이수정" where bno=2;
+ update boardT set bname='글쓴이수정' where bno=2;
+ commit;
  
  --bno_seq25 시퀀스 생성
  create SEQUENCE bno_seq
